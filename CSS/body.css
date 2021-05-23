@@ -1,0 +1,44 @@
+.imageContainer::before{
+    z-index: -1;
+    background: url("../Images/Image1.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 51px;
+    left: 0;
+    opacity: 90%;
+
+ }
+
+ .imageContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 3rem;
+     color: whitesmoke;
+ }
+
+ #location{
+    font-size: 1.5rem;
+ }
+
+ .searchbar{
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 27rem;
+    padding-left: 0.5rem;
+    border-radius: 20px 20px 20px 20px;
+ }
+ .searchbutton{
+    block-size: 2.8rem;
+    width: 12%;
+
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    padding: 0.34rem 0.6rem;
+    background-color: yellow;
+    margin: -13px;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,67 @@
+.check-city {
+   
+   background-size: 100% 100%;
+   position: relative;
+   top: 150px;
+}
+
+.cities-up {
+  position: relative;
+  top: 40px;
+  display: flex;
+}
+
+.find-city-1 {
+   position: relative;
+   top: 30px;
+   color: black;
+   text-align: center;
+   font-size: 60px;
+   border-bottom: 5px double black;
+}
+
+.find-city-2 {
+   position: relative;
+   top: 10px;
+   color: black;
+   text-align: center;
+   font-size: 60px;
+   border-bottom: 5px double black;
+}
+
+.cities-down{
+   display: flex;
+   position: relative;
+   top: 20px;
+}
+
+.city {
+  flex: 33.33%;
+  padding: 30px 75px;
+  margin: 0px 12px;
+}
+
+.city a{
+   text-decoration: none;
+   color: black;
+}
+
+.city figcaption{
+   font-size: 20px;
+   text-align: center;
+}
+
+.city img {
+   height: 250px;
+   width: 275px;
+}
+
+ .city img:hover{
+   position:relative;
+  top:-25px;
+  left:-35px;
+  width:300px;
+  height:275px;
+  display:flow-root;
+  z-index:999;
+} 

@@ -1,0 +1,58 @@
+.Lxryhouse1{
+    top: 2150px;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    position: absolute;
+    opacity: 80%;
+}
+.Lxryhouse3{
+    width: 100%;
+    height: 500px;
+    left: 0rem;
+    position: absolute;
+    top: 1650px;
+    opacity: 80%;
+}
+
+/* .imageContainer::before{
+    z-index: -1;
+    background: url("Image2.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 51px;
+    left: 0;
+    opacity: 90%;
+    
+ }
+
+ .imageContainer{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 3rem;
+     color: whitesmoke;
+     
+ }
+
+ #location{
+    font-size: 1.5rem;
+    
+ } */
+
+/*  .searchbutton{
+    height: 20%;
+    width: 11%;
+    
+    border-radius: 0px 4px 4px 0px;
+    
+    font-size: 22px;
+    padding: 0.5rem 1.5rem;
+    padding-right: 1rem;
+    background-color:pink;
+    
+    size: 50rem;
+} */

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Feedback</title>
+      <link rel="stylesheet" href="CSS/feedback.css">
+   </head>
+   <body>
+      <h1 class="feed">Thank You for using our Service</h1>
+      <p>
+         Primus Temporary Housing kindly requests you to fill the feedback form
+      </p>
+      <h1>Feedback form</h1>
+      <label for="what">I am a</label><br>
+      <select class="who-am-I" id="what">
+         <option value="Select">Select</option>
+         <option value="House Buyer">House Buyer</option>
+         <option value="House Seller">House Seller</option>
+         <option value="Real Estate Agent">Real Estate Agent</option>
+         <option value="Landlord">Landlord</option>
+         <option value="Renter">Renter</option>
+      </select><br><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email"><br><br>
+      <label for="name">Name</label><br>
+      <input type="text" id="name"><br><br>
+      <label for="feedback">Feedback</label><br>
+      <textarea name="name" rows="8" cols="80" id="feedback"></textarea><br><br>
+      <input class="btn" type="button" value="Share Feedback" onclick="myFunction()">
+
+      <script>
+      function myFunction() {
+        alert("Your Feedback has been submitted.");
+        window.location = "index.html";
+      }
+      </script>
+   </body>
+</html>
